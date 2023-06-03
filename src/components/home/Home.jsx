@@ -7,7 +7,7 @@ import ScrollDown from './ScrollDown';
 const Home = () => {
     return (
         <section className="home container" id="home">
-            <div classsName="intro"> 
+            <div className="intro"> 
               <img src={Me} alt="" className='home__img'/>
               <h1 className="home__name">Efsa</h1>
               <span className="home__education">Software Developer, Designer, Lover</span>
