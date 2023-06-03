@@ -3,7 +3,7 @@
     left: 0;
     top: 0;
     background: var(--body-color);
-    border-right: 2px solid rgba(255, 151, 246, 0.356);
+    border-right: 2px solid hsla(347, 100%, 68%, 0.411);
     padding: 2rem;
     width: 110px;
     min-height: 100vh;
@@ -23,6 +23,10 @@
     font-size: 2rem;
     color: var(--title-color);
     font-weight: var(--font-bold);
+}
+
+.nav__link:hover {
+    color: hsl(347, 100%, 68%);
 }
 
 .copyright {
